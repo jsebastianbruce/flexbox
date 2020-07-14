@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    background-color: #29AB87;
+    position: fixed;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    z-index: 1;
+}
+
+.logo_name {
+
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+}
+
+.logo_name img {
+    width: 120px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.logo_name p {
+    font-size: 3rem;
+}
+
+.sections {
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.sections a {
+    margin-right: 20px;
+    text-decoration: underline;
+    color: white;
+}
+
+header {
+    padding-top: 316px;
+    background-image: url("./images/mission_mp.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    background-color: white;
+    opacity: 0.5;
+    height: 200px;
+    width: 1400px;
+}
+
+#Portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.first_row {
+    display: flex;
+    padding-left: 280px;
+}
+
+.beauty {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.beauty img {
+    width: 100px;
+    height: auto;
+}
+
+.beauty p {
+    font-size: 2.5rem;
+    padding-left: 30px;
+}
+
+.food {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.food img {
+    width: 100px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.food p {
+    font-size: 2.5rem;
+    padding-left: 30px;
+}
+
+.second_row {
+    display: flex;
+    padding-left: 310px;
+}
+
+.vaccination {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.vaccination img {
+    width: 100px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.vaccination p {
+    font-size: 2.5rem;
+    padding-left: 30px;
+}
+
+.kindergarten {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.kindergarten img {
+    width: 100px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.kindergarten p {
+    font-size: 2.5rem;
+    padding-left: 30px;
+}
+
+#Contact {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.address {
+    flex-grow: 2;
+}
+
+.address h2 {
+    font-size: 2.5rem;
+}
+
+.address h3 {
+    font-size: 1.5rem;
+}
+
+.map {
+    flex-grow: 1;
+    width: 400px;
+}
+
+.map img {
+    width: 400px;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #29AB87;
+    justify-content: center;
+}
